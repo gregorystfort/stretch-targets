@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scorecard - Wisconsin Global Scorecard</title>
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Scorecard - Wisconsin Global Scorecard">
+<meta property="og:url" content="https://stretchtargets.letskeepbuilding.com/">
+<meta property="og:site_name" content="Wisconsin Global Scorecard">
+<meta property="og:image" content="assets/score.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@900&display=swap" rel="stylesheet">
+<style>
+/* ===== RESET ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ===== BASE ===== */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+strong { color: #ff0000; }
+
+/* ===== HEADER ===== */
+.l-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 111;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+}
+
+/* Middle subheader - logo area */
+.l-subheader.at_middle {
+  height: 100px;
+  background: #fff;
+  transition: height 0.3s;
+}
+.l-header.sticky .l-subheader.at_middle {
+  height: 50px;
+}
+.l-subheader-h {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 20px;
+}
+.header-logo img {
+  height: 50px;
+  width: auto;
+}
+
+/* Bottom subheader - nav */
+.l-subheader.at_bottom {
+  height: 50px;
+  background: #1e73be;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+}
+.l-subheader.at_bottom .l-subheader-h {
+  padding: 0;
+  justify-content: space-between;
+}
+
+/* ===== NAVIGATION ===== */
+.w-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: stretch;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+.w-nav-item {
+  position: relative;
+}
+.w-nav-anchor {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 50px;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+.w-nav-anchor:hover {
+  color: #ff0000;
+}
+.w-nav-item.current-menu-item .w-nav-anchor {
+  background: #ff0000;
+  color: #fff;
+}
+.w-nav-item.current-menu-item .w-nav-anchor:hover {
+  color: #fff;
+}
+
+/* Dropdown arrow */
+.w-nav-item.has-dropdown > .w-nav-anchor::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #fff;
+  margin-left: 6px;
+}
+.w-nav-item.has-dropdown:hover > .w-nav-anchor::after {
+  border-top-color: #ff0000;
+}
+.w-nav-item.current-menu-item.has-dropdown:hover > .w-nav-anchor::after {
+  border-top-color: #fff;
+}
+
+/* Dropdown */
+.w-nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #1e73be;
+  min-width: 180px;
+  z-index: 100;
+  list-style: none;
+  padding: 0;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
+.w-nav-item.has-dropdown:hover .w-nav-dropdown {
+  display: block;
+}
+.w-nav-dropdown li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.w-nav-dropdown li a:hover {
+  background: rgba(255,255,255,0.1);
+  color: #ff0000;
+}
+
+/* Search icon */
+.nav-right {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search-icon:hover {
+  color: #ff0000;
+}
+
+/* Search Overlay */
+.search-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #fff;
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search-overlay.active {
+  display: flex;
+}
+.search-overlay input {
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #999;
+}
+.search-overlay .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* ===== CAROUSEL / SLIDER ===== */
+.rev-slider-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #eee;
+}
+.rev-slider {
+  position: relative;
+  width: 100%;
+}
+.rev-slide {
+  position: relative;
+  width: 100%;
+  display: none;
+}
+.rev-slide.active {
+  display: block;
+}
+.rev-slide-bg {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+.rev-slide-layers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.tp-caption {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  background-color: rgba(224, 51, 0, 1);
+  padding: 5px 8px;
+  white-space: nowrap;
+}
+.tp-caption.sign-up-btn {
+  font-size: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+/* Slider arrows */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  transition: background 0.2s;
+}
+.slider-arrow:hover {
+  background: rgba(0,0,0,1);
+}
+.slider-arrow.left { left: 20px; }
+.slider-arrow.right { right: 20px; }
+
+/* Slider timer bar */
+.slider-timer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  background: rgb(0,0,0);
+  width: 0%;
+  z-index: 10;
+  animation: timerProgress 5s linear infinite;
+}
+@keyframes timerProgress {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+/* ===== SECTIONS ===== */
+.l-section {
+  padding: 25px 0;
+}
+.l-section-h {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Tagline bar */
+.section-tagline {
+  background: #1e73be;
+  color: #fff;
+  padding: 20px 0;
+}
+.section-tagline h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Bipartisan section */
+.section-bipartisan {
+  padding: 30px 0;
+}
+.bipartisan-row {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+.bipartisan-left {
+  flex: 1;
+}
+.bipartisan-right {
+  flex: 1;
+}
+.bipartisan-left p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+.bipartisan-left p strong {
+  color: #333;
+}
+.bipartisan-left .target-num {
+  color: #ff0000;
+  font-weight: 700;
+}
+
+/* Buttons */
+.btn-governor,
+.btn-download-action {
+  display: inline-block;
+  background: #ff0000;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.btn-governor:hover,
+.btn-download-action:hover {
+  opacity: 0.9;
+}
+
+/* YouTube embed */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video-caption {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0;
+  color: #333;
+}
+
+/* Three columns */
+.section-three-col {
+  padding: 30px 0;
+}
+.three-col-row {
+  display: flex;
+  gap: 30px;
+}
+.three-col {
+  flex: 1;
+}
+.three-col p strong {
+  text-align: center;
+  display: block;
+  color: #ff0000;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.three-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+
+/* Scorecard logo + mission */
+.section-mission {
+  padding: 30px 0;
+  color: #000;
+}
+.mission-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.mission-logo img {
+  display: inline-block;
+  width: 204px;
+  height: auto;
+}
+.mission-text {
+  text-align: center;
+}
+.mission-text p strong {
+  color: #ff0000;
+}
+.mission-text p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Stretch target headings */
+.section-stretch-heading {
+  padding: 25px 0;
+}
+.section-stretch-heading p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.section-stretch-heading p strong {
+  color: #ff0000;
+}
+
+/* Chart image */
+.section-chart {
+  padding: 25px 0;
+}
+.section-chart .chart-img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Explanatory text */
+.section-explain {
+  padding: 25px 0;
+}
+.section-explain p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+.section-explain p em {
+  font-style: italic;
+}
+
+/* Education target section */
+.section-education-target {
+  padding: 25px 0;
+}
+.section-education-target p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+.section-education-target p.center {
+  text-align: center;
+}
+
+/* Legislators section */
+.section-legislators {
+  background: #1e73be;
+  color: #fff;
+  padding: 30px 0;
+}
+.legislators-row {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.legislators-left {
+  flex: 2;
+}
+.legislators-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.legislators-left h6 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.legislators-left p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.btn-download-here {
+  display: inline-block;
+  background: #ff4400;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+.btn-download-here:hover {
+  opacity: 0.9;
+}
+
+/* Education cards */
+.section-cards {
+  padding: 30px 0;
+}
+.cards-row {
+  display: flex;
+  gap: 30px;
+}
+.card-item {
+  flex: 1;
+}
+.card-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Sign-up section */
+.section-signup {
+  background: #f4f4f4;
+  padding: 30px 0;
+}
+.section-signup h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e73be;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+.section-signup > .l-section-h > p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.signup-form label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+.signup-form-row {
+  display: flex;
+  gap: 15px;
+  align-items: stretch;
+}
+.signup-form-row input[type="email"] {
+  flex: 2.5;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  outline: none;
+}
+.signup-form-row input[type="submit"] {
+  flex: 1;
+  background: #1e73be;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.signup-form-row input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+/* ===== FOOTER ===== */
+.l-footer {
+  background: #1e73be;
+  color: #fff;
+  padding: 30px 0;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.footer-fb {
+  margin-bottom: 15px;
+}
+.footer-fb img {
+  width: 59px;
+  height: 59px;
+  display: inline-block;
+}
+.footer-copyright {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+.footer-copyright a {
+  color: #ffff00;
+}
+.footer-copyright a:hover {
+  text-decoration: underline;
+}
+.footer-info {
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+  padding: 0 40px;
+}
+.footer-info b {
+  color: #fff;
+}
+
+/* Perplexity attribution */
+.pplx-footer {
+  margin-top: 15px;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+.pplx-footer a {
+  color: #ffff00;
+}
+
+/* ===== BODY OFFSET FOR FIXED HEADER ===== */
+.l-main {
+  padding-top: 150px;
+}
+.l-header.sticky + .l-main,
+.l-header.sticky ~ .l-main {
+  padding-top: 100px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .l-main {
+    padding-top: 100px;
+  }
+  .l-subheader.at_middle {
+    height: 60px;
+  }
+  .header-logo img {
+    height: 35px;
+  }
+  .w-nav-list {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .w-nav-anchor {
+    height: auto;
+    padding: 8px 12px;
+    font-size: 13px;
+    line-height: normal;
+  }
+  .l-subheader.at_bottom {
+    height: auto;
+  }
+  .bipartisan-row,
+  .three-col-row,
+  .legislators-row,
+  .cards-row {
+    flex-direction: column;
+  }
+  .rev-slide-bg {
+    height: 350px;
+  }
+  .tp-caption {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .tp-caption.sign-up-btn {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .signup-form-row {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="l-header" id="site-header">
+  <!-- Middle - Logo -->
+  <div class="l-subheader at_middle">
+    <div class="l-subheader-h">
+      <div class="header-logo">
+        <a href="/"><img src="assets/logo.jpg" alt="Stretch Targets" width="935" height="176"></a>
+      </div>
+    </div>
+  </div>
+  <!-- Bottom - Navigation -->
+  <div class="l-subheader at_bottom">
+    <div class="l-subheader-h">
+      <nav>
+        <ul class="w-nav-list">
+          <li class="w-nav-item current-menu-item"><a class="w-nav-anchor" href="#">Scorecard</a></li>
+          <li class="w-nav-item has-dropdown">
+            <a class="w-nav-anchor" href="#">How</a>
+            <ul class="w-nav-dropdown">
+              <li><a href="https://stretchtargets.letskeepbuilding.com/how-economy/">How Economy</a></li>
+              <li><a href="https://stretchtargets.letskeepbuilding.com/how-education/">How Education</a></li>
+            </ul>
+          </li>
+          <li class="w-nav-item"><a class="w-nav-anchor" href="https://stretchtargets.letskeepbuilding.com/why/">Why</a></li>
+          <li class="w-nav-item"><a class="w-nav-anchor" href="https://stretchtargets.letskeepbuilding.com/history/">History</a></li>
+          <li class="w-nav-item"><a class="w-nav-anchor" href="https://stretchtargets.letskeepbuilding.com/approach/">Approach</a></li>
+          <li class="w-nav-item has-dropdown">
+            <a class="w-nav-anchor" href="#">Resources</a>
+            <ul class="w-nav-dropdown">
+              <li><a href="https://stretchtargets.letskeepbuilding.com/legislators/">Legislators</a></li>
+              <li><a href="https://stretchtargets.letskeepbuilding.com/wi-vs-tx-education/">WI vs TX Education</a></li>
+            </ul>
+          </li>
+          <li class="w-nav-item"><a class="w-nav-anchor" href="https://stretchtargets.letskeepbuilding.com/recent-news/">Recent News</a></li>
+          <li class="w-nav-item"><a class="w-nav-anchor" href="https://stretchtargets.letskeepbuilding.com/press/">Press</a></li>
+          <li class="w-nav-item"><a class="w-nav-anchor" href="https://stretchtargets.letskeepbuilding.com/signup/">Sign Up</a></li>
+          <li class="w-nav-item"><a class="w-nav-anchor" href="https://stretchtargets.letskeepbuilding.com/contact-us/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        <div class="search-icon" onclick="document.getElementById('searchOverlay').classList.add('active')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Search Overlay -->
+<div class="search-overlay" id="searchOverlay">
+  <span class="close-btn" onclick="document.getElementById('searchOverlay').classList.remove('active')">&times;</span>
+  <input type="text" placeholder="Search">
+</div>
+
+<!-- ===== MAIN ===== -->
+<main class="l-main">
+
+  <!-- CAROUSEL / SLIDER -->
+  <section class="rev-slider-wrapper">
+    <div class="rev-slider">
+      <!-- Slide 1: Education -->
+      <div class="rev-slide active" id="slide-1">
+        <img class="rev-slide-bg" src="assets/slide-school.jpg" alt="Education">
+        <div class="rev-slide-layers">
+          <div class="tp-caption" style="top: 39%; right: 5%; left: auto;">Texas spends $3,103 less per K-12 child than Wisconsin,</div>
+          <div class="tp-caption" style="top: 50%; right: 5%; left: auto;">yet their math and reading scores are substantially better</div>
+          <a href="#signup-section" class="tp-caption sign-up-btn" style="top: 66%; right: 10%; left: auto;">Sign up</a>
+        </div>
+      </div>
+      <!-- Slide 2: Economy -->
+      <div class="rev-slide" id="slide-2">
+        <img class="rev-slide-bg" src="assets/slide-economy.jpg" alt="Economy">
+        <div class="rev-slide-layers">
+          <div class="tp-caption" style="top: 36%; right: 5%; left: auto;">For over 35 years, Minnesota's economy</div>
+          <div class="tp-caption" style="top: 44%; right: 5%; left: auto;">has &ldquo;beaten&rdquo; ours in Wisconsin!</div>
+        </div>
+      </div>
+    </div>
+    <!-- Arrows -->
+    <button class="slider-arrow left" onclick="changeSlide(-1)">&#x2039;</button>
+    <button class="slider-arrow right" onclick="changeSlide(1)">&#x203A;</button>
+    <!-- Timer bar -->
+    <div class="slider-timer" id="sliderTimer"></div>
+  </section>
+
+  <!-- TAGLINE BAR -->
+  <section class="section-tagline">
+    <div class="l-section-h">
+      <h3>&ldquo;Expect much more, Wisconsin!&rdquo;</h3>
+    </div>
+  </section>
+
+  <!-- BIPARTISAN TARGETS -->
+  <section class="l-section section-bipartisan">
+    <div class="l-section-h">
+      <div class="bipartisan-row">
+        <div class="bipartisan-left">
+          <p><strong style="color:#333;">BIPARTISAN TWO STRETCH TARGETS THAT WILL MAKE OR BREAK OUR CHILDREN AND GRANDCHILREN'S QUALITY OF LIFE&hellip;AND MAYBE OUR OWN!</strong></p>
+          <p><span class="target-num"><strong>ONE</strong></span>. WISCONSIN PER CAPITA INCOME TO BE 10% ABOVE MINNESOTA'S BY 2038!</p>
+          <p><span class="target-num"><strong>TWO</strong></span>. WISCONSIN MATH, SCIENCE, &amp; READING -15 YEAR OLD SCORES TO BE IN THE TOP 10 GLOBALLY BY 2038!</p>
+          <p>
+            <a class="btn-governor" href="mailto:govgeneral@wisconsin.gov?Subject=message%20WI%20Scorecard&body=Dear Mr Governor ( or Legislator or school board member), There is always much discussion in our state about our jobs and our K-12 education. Two huge problems that we have in our great state. Please note that I, among many others here in WI, are now watching regularly this attached WI Global Scorecard. I do EXPECT to begin seeing real results. Even in Wisconsin these %E2%80%9CStretch Targets%E2%80%99 over the long run CAN BE accomplished! No short term %E2%80%9Cfixes%E2%80%9D will do. For though you politicians are %E2%80%9Cshort termers%E2%80%9D, we are long term citizens, and these two complex challenges require long term %E2%80%9Cfixes%E2%80%9D! Please make a non-partisan commitment to them for the next 20 years. It is most important to me! Thank you, (signed)">Share this with the governor</a>
+          </p>
+          <p>
+            <a class="btn-download-action" href="http://bit.ly/2BA5M7v">Download Action Points</a>
+          </p>
+        </div>
+        <div class="bipartisan-right">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/iMZssS46DK0" title="For The Record" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p class="video-caption">Dave Baskerville (International Business) on Channel 3000 News 3 : For The Record</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THREE COLUMNS: PROBLEM / GOALS / PURPOSE -->
+  <section class="l-section section-three-col">
+    <div class="l-section-h">
+      <div class="three-col-row">
+        <div class="three-col">
+          <p><strong>PROBLEM</strong></p>
+          <p>Over the last 38 years Wisconsin has fallen significantly behind, both economically and scholastically.</p>
+        </div>
+        <div class="three-col">
+          <p><strong>GOALS</strong></p>
+          <p>Wisconsin citizens need to adopt two bipartisan, aggressive long-term goals to address this situation; and to &lsquo;grassroots&rsquo; pressure our leaders to act accordingly!.</p>
+        </div>
+        <div class="three-col">
+          <p><strong>PURPOSE OF THIS WEBSITE</strong></p>
+          <p>This website provides an easily understandable scorecard twice a year showing the progress towards these two &ldquo;Stretch Targets.&rdquo;</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCORECARD LOGO + MISSION -->
+  <section class="l-section section-mission">
+    <div class="l-section-h">
+      <div class="mission-logo">
+        <img src="assets/score.jpg" alt="Scorecard" width="204" height="50">
+      </div>
+      <div class="mission-text">
+        <p><strong>Our Mission</strong></p>
+        <p><strong>To enable Wisconsinites to realize substantially increased real income and considerably more opportunity for advancing their hopes and dreams.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRETCH TARGET #1 HEADING -->
+  <section class="l-section section-stretch-heading">
+    <div class="l-section-h">
+      <p><strong>STRETCH TARGET # ONE. WISCONSIN PER CAPITA INCOME WILL BE 10% ABOVE MINNESOTA'S BY 2037!</strong></p>
+    </div>
+  </section>
+
+  <!-- CHART IMAGE -->
+  <section class="l-section section-chart">
+    <div class="l-section-h">
+      <img class="chart-img" src="assets/scorecard-may-2018.jpg" alt="Per capita income gap: WI vs. MN (1981-2017)" width="2118" height="1407">
+    </div>
+  </section>
+
+  <!-- EXPLANATORY TEXT -->
+  <section class="l-section section-explain">
+    <div class="l-section-h">
+      <p>For over 38 years, Minnesota&rsquo;s economy has been much stronger than ours in Wisconsin! Why compare with Minnesota? True, the economies of the two states have some historic and fundamental differences.  But Minnesota and Wisconsin are demographically similar. We love to compete against the Gophers/Vikings. Why not on jobs? Since at least 1980, we have been<em> losing</em> to them. Yes, in that year, MN which was #19 surpassed  #18 WI for the first time. TODAY, Minnesota is # 11 and generates $4900 per capita more than #24 Wisconsin.</p>
+    </div>
+  </section>
+
+  <!-- STRETCH TARGET #2 -->
+  <section class="l-section section-education-target">
+    <div class="l-section-h">
+      <p class="center"><strong>STRETCH TARGET # TWO. WISCONSIN MATH, SCIENCE &amp; READING</strong></p>
+      <p class="center"><strong>15 YEAR OLD SCORES WILL BE IN THE TOP 10 GLOBALLY BY 2037!</strong></p>
+      <br>
+      <p>For at least two generations, American K-12 education has been slipping. Though Wisconsin does OK in national ratings, our nation  (&amp; State) comes in  dismally low when compared to the student achievement levels of most other First World and some Emerging Nations. That means that our workforce under age 55  has trouble competing in our global world. And  means general citizenry participation, leadership in many fields and social mobility suffer.</p>
+    </div>
+  </section>
+
+  <!-- LEGISLATORS SECTION -->
+  <section class="section-legislators">
+    <div class="l-section-h">
+      <div class="legislators-row">
+        <div class="legislators-left">
+          <h6>Share This With Legislators &amp; Other Public Servants</h6>
+          <p>We have a set of concrete action points that you now can put in the hands of your candidates &amp; Legislators &amp; Governor when asked: &ldquo;Well, what do you want me to do with this Stretch Targets?&rdquo;</p>
+        </div>
+        <div class="legislators-right">
+          <a class="btn-download-here" href="http://bit.ly/2BA5M7v">Download Here</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SCORECARD CARDS -->
+  <section class="l-section section-cards">
+    <div class="l-section-h">
+      <div class="cards-row">
+        <div class="card-item">
+          <img src="assets/math-card.png" alt="MATH Scorecard" width="1080" height="1080">
+        </div>
+        <div class="card-item">
+          <img src="assets/reading-card.png" alt="SCIENCE Scorecard" width="1080" height="1080">
+        </div>
+        <div class="card-item">
+          <img src="assets/science-card.png" alt="READING Scorecard" width="1080" height="1080">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGN UP SECTION -->
+  <section class="section-signup" id="signup-section">
+    <div class="l-section-h">
+      <h1>Sign up</h1>
+      <p>Why sign up? Simply to receive 2x per year this Scorecard to keep you updated on Wisconsin's progress vs. the USA and world and to provide you with an easy yet informed, intentional way to make your concern known to our leaders. Nothing else!</p>
+      <br>
+      <form class="signup-form" id="mc4wp-form" method="post">
+        <label>Email address:</label>
+        <div class="signup-form-row">
+          <input type="email" name="EMAIL" placeholder="Your email address" required>
+          <input type="submit" value="Sign up">
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="l-footer">
+  <div class="l-section-h">
+    <div class="footer-fb">
+      <a href="https://www.facebook.com/wisconsinstretchtargets" target="_blank" rel="noopener noreferrer">
+        <img src="assets/facebook-logo.png" alt="Facebook" width="59" height="59">
+      </a>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; Stretch Targets. All Rights Reserved. Website Designed by <a href="http://www.letskeepbuilding.com" target="_blank" rel="noopener noreferrer">LetsKeepBuilding Inc</a></p>
+    </div>
+    <div class="footer-info">
+      <p>Stretch Targets, Inc. is a 501(c)(3) organization. Tax deductible donation checks can be sent to <b>P.O. Box 1298, Madison, WI 53701</b>. Receipts will be immediately sent out to donors as will yearend expense reports. Thank you!</p>
+    </div>
+    <div class="pplx-footer">
+      <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+// Slider functionality
+let currentSlide = 0;
+const slides = document.querySelectorAll('.rev-slide');
+const totalSlides = slides.length;
+let slideInterval;
+
+function showSlide(index) {
+  slides.forEach(s => s.classList.remove('active'));
+  slides[index].classList.add('active');
+  // Reset timer animation
+  const timer = document.getElementById('sliderTimer');
+  timer.style.animation = 'none';
+  timer.offsetHeight; // trigger reflow
+  timer.style.animation = 'timerProgress 5s linear infinite';
+}
+
+function changeSlide(direction) {
+  currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+  showSlide(currentSlide);
+  resetInterval();
+}
+
+function autoAdvance() {
+  currentSlide = (currentSlide + 1) % totalSlides;
+  showSlide(currentSlide);
+}
+
+function resetInterval() {
+  clearInterval(slideInterval);
+  slideInterval = setInterval(autoAdvance, 5000);
+}
+
+// Start auto-advance
+slideInterval = setInterval(autoAdvance, 5000);
+
+// Sticky header behavior
+let lastScroll = 0;
+window.addEventListener('scroll', function() {
+  const header = document.getElementById('site-header');
+  if (window.scrollY > 100) {
+    header.classList.add('sticky');
+  } else {
+    header.classList.remove('sticky');
+  }
+  lastScroll = window.scrollY;
+});
+</script>
+
+</body>
+</html>
