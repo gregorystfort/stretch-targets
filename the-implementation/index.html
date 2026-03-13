@@ -19,11 +19,11 @@
 <link rel="author" href="https://www.perplexity.ai/computer">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How Economy - Wisconsin Global Scorecard</title>
+<title>The Implementation - Wisconsin Global Scorecard</title>
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
-<meta property="og:title" content="How Economy - Wisconsin Global Scorecard">
-<meta property="og:url" content="https://stretchtargets.org/how-economy/">
+<meta property="og:title" content="The Implementation - Wisconsin Global Scorecard">
+<meta property="og:url" content="https://stretchtargets.org/the-implementation/">
 <meta property="og:site_name" content="Wisconsin Global Scorecard">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,6 +44,8 @@ body {
 a { text-decoration: none; color: inherit; }
 img { max-width: 100%; height: auto; display: block; }
 strong { color: #ff0000; }
+em { font-style: italic; }
+u { text-decoration: underline; }
 
 /* ===== HEADER ===== */
 .l-header {
@@ -253,16 +255,6 @@ strong { color: #ff0000; }
   text-decoration: underline;
 }
 
-/* ===== SECTIONS ===== */
-.l-section {
-  padding: 25px 0;
-}
-.l-section-h {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 /* ===== MAIN CONTENT ===== */
 .main-content {
   padding: 30px 0;
@@ -286,151 +278,6 @@ strong { color: #ff0000; }
   margin-bottom: 15px;
 }
 .main-content h2 strong {
-  color: #ff0000;
-}
-.main-content h3 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 10px;
-}
-.main-content a.read-more {
-  color: #1e73be;
-  font-weight: 700;
-}
-.main-content a.read-more:hover {
-  text-decoration: underline;
-}
-.main-content ul {
-  margin-bottom: 15px;
-  padding-left: 20px;
-}
-.main-content ul li {
-  margin-bottom: 8px;
-  font-size: 14px;
-  line-height: 24px;
-}
-.main-content ul li a {
-  color: #1e73be;
-}
-.main-content ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Grid layouts */
-.grid-row {
-  display: flex;
-  gap: 30px;
-  margin-bottom: 30px;
-}
-.grid-col {
-  flex: 1;
-  background: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #eee;
-}
-.grid-col h3 {
-  color: #333;
-  margin-bottom: 8px;
-}
-.grid-col h3 strong {
-  color: #ff0000;
-}
-.grid-col p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #333;
-}
-
-/* Two column layout */
-.two-col-row {
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-.two-col-left {
-  flex: 1;
-}
-.two-col-right {
-  flex: 1;
-}
-
-/* Legislators blue banner */
-.legislators-banner {
-  background: #1e73be;
-  color: #fff;
-  padding: 40px 0;
-  margin-bottom: 0;
-}
-.legislators-banner .l-section-h {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-.legislators-banner h2 {
-  color: #fff;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-.legislators-banner p {
-  color: #fff;
-  font-size: 14px;
-  line-height: 24px;
-}
-.btn-download {
-  display: inline-block;
-  background: #ff4400;
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  white-space: nowrap;
-}
-.btn-download:hover {
-  opacity: 0.9;
-}
-
-/* Video wrapper */
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-/* Slideshare embed */
-.slideshare-wrapper {
-  margin: 20px 0;
-}
-.slideshare-wrapper iframe {
-  width: 100%;
-  height: 500px;
-  border: 1px solid #eee;
-}
-
-/* Fact statements */
-.fact-statement {
-  font-size: 15px;
-  line-height: 26px;
-  margin-bottom: 20px;
-  padding: 15px 20px;
-  background: #f9f9f9;
-  border-left: 4px solid #1e73be;
-}
-.fact-statement strong {
   color: #ff0000;
 }
 
@@ -568,11 +415,6 @@ strong { color: #ff0000; }
   .l-subheader.at_bottom {
     height: auto;
   }
-  .grid-row,
-  .two-col-row,
-  .legislators-banner .l-section-h {
-    flex-direction: column;
-  }
   .signup-form-row {
     flex-direction: column;
   }
@@ -649,9 +491,9 @@ strong { color: #ff0000; }
   <!-- PAGE TITLE SECTION -->
   <section class="page-title-section">
     <div class="l-section-h">
-      <h1>How Economy</h1>
+      <h1>The Implementation</h1>
       <div class="breadcrumbs">
-        <a href="/">Home</a> &rsaquo; How Economy
+        <a href="/">Home</a> &rsaquo; The Implementation
       </div>
     </div>
   </section>
@@ -660,43 +502,13 @@ strong { color: #ff0000; }
   <section class="main-content">
     <div class="l-section-h">
       
-<h2><strong>HOW DO WE DO IT?</strong></h2>
-<p>We have tried to explain the urgent need for WHY and WHAT and WHERE Wisconsin must radically address its dismal economic and educational performance over the past 38 plus years; and WHY all of us Wisconsinites need a clearly understood scorecard by which to track the performance of complex systems and evaluate confusing reporting. To achieve a &ldquo;Stretch Target&rdquo;, people and institutions have to invent new HOW strategies and incentives and implementations-entirely new ways often fused with past and current &ldquo;successful&rdquo; initiatives and programs to achieve their purpose (Harvard Kennedy School, Baskerville).</p>
+<p><strong><u>GATHER EXPEDITIOUSLY THE BEST AND BROADEST INPUT FROM MANY QUARTERS BEFORE DEVELOPING CONCRETE PLANS.</u></strong> Gather experts from State industry and academia as well as from the rest of the nation/world to understand, brainstorm, inspire and propose ways to the Governor to develop the concrete plans for implementation of the &ldquo;Target&rdquo;. This is the beginning of the HOW, and in some circles has already begun. And though the State has to set the overall direction, &ldquo;it is only businesses that create jobs and wealth!&rdquo; (Michael Porter &ndash; &lsquo;Passing Grade&rsquo;, Hefty &amp;Torinus, 4/14).</p>
 
-<h2><strong>HOW WISCONSIN CAN IN THE NEXT 20 YEARS CATCH UP ECONOMICALLY WITH MINNESOTA (&amp; THE NATION)</strong></h2>
-<p>We are not delineating any alternative, concrete economic growth plan in addition to the many already proposed.** Rather, based on the experience from &ldquo;successful&rdquo; projects and initiatives in Wisconsin, elsewhere in the United States, and Overseas, we are suggesting that the following elements be considered in any HOW strategy, i.e., the serious effort to implement a dramatic 20-year Target to economically overtake Minnesota. Our approach will be different than their very successful run. But local business leaders, investors, entrepreneurs and skilled workers will also lead the way with the overall direction of state government.</p>
-<p>** = Though we have attached on the home page one specific proposal for Legislators or other Public Servants to consider.</p>
+<p><strong><u>NOTE: MAJOR TURN AROUNDS CAN HAPPEN SOONER. BUT STAY THE COURSE!</u></strong> Given the commitment to the &ldquo;Stretch Target&rdquo;, 1 and 5 year firm action plans, and a longer-term horizon for target landmarks for both state and private industry will be developed and implemented. (Earlier well conceived plans such as Be Bold and Be Bold II, New North, and etc&hellip;.will be dusted off and/or incorporated into Be Bold III &amp; IV where appropriate with their respective, newly assigned mini-stretch targets.) Guideposts for tracking by State and public will be established.</p>
 
-<div class="grid-row">
-  <div class="grid-col">
-    <h3><strong>THE &ldquo;STRETCH&rdquo;</strong></h3>
-    <p>Get our leaders to think BIG!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-stretch/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE IMPLEMENTATION</strong></h3>
-    <p>Gather expeditiously the best and broadest input from many quarters before developing concrete plans.</p>
-    <a class="read-more" href="https://stretchtargets.org/the-implementation/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE STATE GOVERNMENT</strong></h3>
-    <p>Recognize limited state resources will not do it. Rather an all court 20 year press in an integrative state effort will.</p>
-    <a class="read-more" href="https://stretchtargets.org/the-state-government/">Read more</a>
-  </div>
-</div>
+<p>And note states such as Colorado, with its Key Industry Cluster Strategy, socioeconomic measures for its entire population, and pro-growth Democrats and libertarian Republicans. Utah with its grassroots, non ideological research-based approach, as well as Iowa have all relied on shorter term economic turnaround plans to move from below national average job growth to near the top in less than a decade!</p>
 
-<div class="grid-row">
-  <div class="grid-col">
-    <h3><strong>THE TACTICS</strong></h3>
-    <p>Increase the capital to fund growth!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-tactics/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE QUALITY OF LIFE</strong></h3>
-    <p>Excitement matters!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-quality-of-life/">Read more</a>
-  </div>
-</div>
+<p><a href="https://stretchtargets.org/how-economy/" style="color:#1e73be;font-weight:700;">See more on how we can create this change!</a></p>
 
     </div>
   </section>

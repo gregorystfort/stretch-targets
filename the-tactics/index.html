@@ -19,11 +19,11 @@
 <link rel="author" href="https://www.perplexity.ai/computer">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How Economy - Wisconsin Global Scorecard</title>
+<title>The Tactics - Wisconsin Global Scorecard</title>
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
-<meta property="og:title" content="How Economy - Wisconsin Global Scorecard">
-<meta property="og:url" content="https://stretchtargets.org/how-economy/">
+<meta property="og:title" content="The Tactics - Wisconsin Global Scorecard">
+<meta property="og:url" content="https://stretchtargets.org/the-tactics/">
 <meta property="og:site_name" content="Wisconsin Global Scorecard">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,6 +44,8 @@ body {
 a { text-decoration: none; color: inherit; }
 img { max-width: 100%; height: auto; display: block; }
 strong { color: #ff0000; }
+em { font-style: italic; }
+u { text-decoration: underline; }
 
 /* ===== HEADER ===== */
 .l-header {
@@ -253,16 +255,6 @@ strong { color: #ff0000; }
   text-decoration: underline;
 }
 
-/* ===== SECTIONS ===== */
-.l-section {
-  padding: 25px 0;
-}
-.l-section-h {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 /* ===== MAIN CONTENT ===== */
 .main-content {
   padding: 30px 0;
@@ -286,151 +278,6 @@ strong { color: #ff0000; }
   margin-bottom: 15px;
 }
 .main-content h2 strong {
-  color: #ff0000;
-}
-.main-content h3 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 10px;
-}
-.main-content a.read-more {
-  color: #1e73be;
-  font-weight: 700;
-}
-.main-content a.read-more:hover {
-  text-decoration: underline;
-}
-.main-content ul {
-  margin-bottom: 15px;
-  padding-left: 20px;
-}
-.main-content ul li {
-  margin-bottom: 8px;
-  font-size: 14px;
-  line-height: 24px;
-}
-.main-content ul li a {
-  color: #1e73be;
-}
-.main-content ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Grid layouts */
-.grid-row {
-  display: flex;
-  gap: 30px;
-  margin-bottom: 30px;
-}
-.grid-col {
-  flex: 1;
-  background: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #eee;
-}
-.grid-col h3 {
-  color: #333;
-  margin-bottom: 8px;
-}
-.grid-col h3 strong {
-  color: #ff0000;
-}
-.grid-col p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #333;
-}
-
-/* Two column layout */
-.two-col-row {
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-.two-col-left {
-  flex: 1;
-}
-.two-col-right {
-  flex: 1;
-}
-
-/* Legislators blue banner */
-.legislators-banner {
-  background: #1e73be;
-  color: #fff;
-  padding: 40px 0;
-  margin-bottom: 0;
-}
-.legislators-banner .l-section-h {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-.legislators-banner h2 {
-  color: #fff;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-.legislators-banner p {
-  color: #fff;
-  font-size: 14px;
-  line-height: 24px;
-}
-.btn-download {
-  display: inline-block;
-  background: #ff4400;
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  white-space: nowrap;
-}
-.btn-download:hover {
-  opacity: 0.9;
-}
-
-/* Video wrapper */
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-/* Slideshare embed */
-.slideshare-wrapper {
-  margin: 20px 0;
-}
-.slideshare-wrapper iframe {
-  width: 100%;
-  height: 500px;
-  border: 1px solid #eee;
-}
-
-/* Fact statements */
-.fact-statement {
-  font-size: 15px;
-  line-height: 26px;
-  margin-bottom: 20px;
-  padding: 15px 20px;
-  background: #f9f9f9;
-  border-left: 4px solid #1e73be;
-}
-.fact-statement strong {
   color: #ff0000;
 }
 
@@ -568,11 +415,6 @@ strong { color: #ff0000; }
   .l-subheader.at_bottom {
     height: auto;
   }
-  .grid-row,
-  .two-col-row,
-  .legislators-banner .l-section-h {
-    flex-direction: column;
-  }
   .signup-form-row {
     flex-direction: column;
   }
@@ -649,9 +491,9 @@ strong { color: #ff0000; }
   <!-- PAGE TITLE SECTION -->
   <section class="page-title-section">
     <div class="l-section-h">
-      <h1>How Economy</h1>
+      <h1>The Tactics</h1>
       <div class="breadcrumbs">
-        <a href="/">Home</a> &rsaquo; How Economy
+        <a href="/">Home</a> &rsaquo; The Tactics
       </div>
     </div>
   </section>
@@ -660,43 +502,23 @@ strong { color: #ff0000; }
   <section class="main-content">
     <div class="l-section-h">
       
-<h2><strong>HOW DO WE DO IT?</strong></h2>
-<p>We have tried to explain the urgent need for WHY and WHAT and WHERE Wisconsin must radically address its dismal economic and educational performance over the past 38 plus years; and WHY all of us Wisconsinites need a clearly understood scorecard by which to track the performance of complex systems and evaluate confusing reporting. To achieve a &ldquo;Stretch Target&rdquo;, people and institutions have to invent new HOW strategies and incentives and implementations-entirely new ways often fused with past and current &ldquo;successful&rdquo; initiatives and programs to achieve their purpose (Harvard Kennedy School, Baskerville).</p>
+<p><strong><u>USE THE MANY STRENGTHS THAT WISCONSIN HAS!</u></strong> &ldquo;If you know your enemy and know yourself, you can win a hundred battles&rdquo; (Sun Tzu). Determine the current strengths and likely key future areas of unique opportunity for dramatic state business growth. Strategic investments in legacy clusters such as advanced manufacturing and agribusiness come to mind. Every $1.00 of sales by Wisconsin manufacturers yields $1.37 in output in other parts of the economy (Bureau of Labor Statistics 1/15). In May, 2018, Wisconsin ranked 8th best in the nation in job growth in manufacturing, yet 48th in job growth (actually loss) in service businesses (finance, insurance, information systems) which make up the bulk of the high paying, female attractive 21st century economy. (A sector the state has formerly done very well in. JOB GROWTH USA, Seidman Center) State biotech, despite being world renowned in research and a former Wisconsin growth industry (<em>InBusiness</em> 10/14) is no longer listed as a leader in that industry in national rankings {TEConomy BIO 2018 Report}. Many promising local initiatives within Wisconsin&rsquo;s nine regional economic development groups should be further encouraged, and where appropriate given new &ldquo;stretch&rdquo; targets and carefully crafted trade and other subsidies.</p>
 
-<h2><strong>HOW WISCONSIN CAN IN THE NEXT 20 YEARS CATCH UP ECONOMICALLY WITH MINNESOTA (&amp; THE NATION)</strong></h2>
-<p>We are not delineating any alternative, concrete economic growth plan in addition to the many already proposed.** Rather, based on the experience from &ldquo;successful&rdquo; projects and initiatives in Wisconsin, elsewhere in the United States, and Overseas, we are suggesting that the following elements be considered in any HOW strategy, i.e., the serious effort to implement a dramatic 20-year Target to economically overtake Minnesota. Our approach will be different than their very successful run. But local business leaders, investors, entrepreneurs and skilled workers will also lead the way with the overall direction of state government.</p>
-<p>** = Though we have attached on the home page one specific proposal for Legislators or other Public Servants to consider.</p>
+<p><strong><u>KEEP OUR PEOPLE!</u></strong> Net, over 10,000 college graduates leave Wisconsin each year (Prof. Morris Davis 2017 report to WMC). Colorado ranks # 2 in net college graduate migration, Utah # 26, and Wisconsin #33 (Census Annual Community Survey). Matching majors with new and old enterprise careers, aggressive recruiting and a growing, vibrant economy will bring many of our well educated sons and daughters back. Add to that the need for out-of-staters and foreign born entrepreneurs and IT people. (Batelle Institute has called Iowa&rsquo;s effort the last 8 years to grow middle-skilled and high-skilled jobs as &ldquo;stellar&rdquo;!) Across the nation, &ldquo;successful&rdquo; economies are those that have the ability to recruit and retain technical and scientific talent from all over the United States and world!</p>
 
-<div class="grid-row">
-  <div class="grid-col">
-    <h3><strong>THE &ldquo;STRETCH&rdquo;</strong></h3>
-    <p>Get our leaders to think BIG!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-stretch/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE IMPLEMENTATION</strong></h3>
-    <p>Gather expeditiously the best and broadest input from many quarters before developing concrete plans.</p>
-    <a class="read-more" href="https://stretchtargets.org/the-implementation/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE STATE GOVERNMENT</strong></h3>
-    <p>Recognize limited state resources will not do it. Rather an all court 20 year press in an integrative state effort will.</p>
-    <a class="read-more" href="https://stretchtargets.org/the-state-government/">Read more</a>
-  </div>
-</div>
+<p>In addition, we lose too many workers in all vocations to disability. From 2003-2013 Wisconsin had the highest rate of growth in the Midwest, an 80% increase in disabilities. (The national average was 60%.) This is a loss of productivity contribution and a related 20,000 less jobs in Wisconsin vs. MN/IA/IL. We do not believe that our Wisconsin workers are either more fragile nor more willing to go on the &ldquo;dole&rdquo;. Rather, is not improved policy to expeditiously rehab and in many cases reintegrate the disabled/injured back into the workforce both a more humane and more productive solution?</p>
 
-<div class="grid-row">
-  <div class="grid-col">
-    <h3><strong>THE TACTICS</strong></h3>
-    <p>Increase the capital to fund growth!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-tactics/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE QUALITY OF LIFE</strong></h3>
-    <p>Excitement matters!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-quality-of-life/">Read more</a>
-  </div>
-</div>
+<p><strong><u>MOBILIZE OUR ACADEMIA!</u></strong> Wisconsin spends more per student for higher education than all but 12 states. Yet, we net lose too many graduates. (See above.) Our world class UW-Madison is within the top six nationally in receiving total monies for research. In 2015 it was ranked # 7 in the world for issuing patents (NAIIPOA), yet related job creation remains low. (See above.) It has a world-renowned reputation in cancer research, nuclear and chemical engineering, civil and manufacturing engineering, and many other fields. The UW-Milwaukee is focusing on energy/water technologies. Our community and technical colleges are getting more attention and are beginning to follow the lead of other states in turning to firms for joint training programs. The Wisconsin Idea traditionally has the academic centers stimulating and enhancing Wisconsin farms and businesses. Let&rsquo;s get back to this in a big way!</p>
+
+<p><strong><u>INCREASE THE CAPITAL TO FUND GROWTH!</u></strong> Aggressive efforts are needed to increase the available capital for startups and expansion of promising ventures. The Wisconsin Be Bold goal was for 500 new growth companies by 2020. BrightStar, among others, is a very dynamic &lsquo;nonprofit&rsquo; source of growing angel capital. And the number of venture companies in Wisconsin has grown by thirty since 2004 {Tom Still, WTC}. Yet, Minnesota has considerably more available venture and angel capital. A culture of growing innovation and entrepreneurism must have the &lsquo;fuel&rsquo; to keep it going!</p>
+
+<p><strong><u>RETAIN OUR OLDER COMPANIES!</u></strong> Aggressively challenge older Wisconsin industries and companies to keep their headquarters and operations and farms in the state with more <em>kaizen</em>, innovation, and growth. (Minnesota has 18 Fortune 500 company headquarters while our state has only 9. When a large institution like US Bank moved its headquarters to Minneapolis from Milwaukee in 1999, tens of millions of dollars of annual spending and many high value jobs also moved north!)</p>
+
+<p><strong><u>DEVOTE SPECIAL AND INNOVATIVE RESOURCES TO OUR WEAK REGIONS!</u></strong> Every state has it more obvious regions of commercial or social challenges. Identify, isolate, and fix as much as possible those areas. Milwaukee, our largest city has one of the highest increases in the nation of income disparity and the highest tax rates (Brooking Report). It has one of the poorest K-12 performing school systems. It likewise has one of the lowest percentages in population of foreign-born entrepreneurs and tech people among American big cities. Yet, it was at one time one of the nation&rsquo;s key manufacturing centers, and for generations welcomed immigrants from all over Europe. It still has some internationally excellent companies and many other resources in the Greater Milwaukee Area. Regroup, grow, improve from there!</p>
+
+<p><strong><u>TAP THE HUGE SUMS OF AVAILABLE MONIES FROM OVERSEAS FOR WISCONSIN INVESTMENT (FDI)!</u></strong> Huge sums of money are waiting to be invested &lsquo;somewhere&rsquo; by Japanese, Chinese, Taiwanese and German companies, much less USA companies. Aggressiveness to attract such companies is critical! One of the most successful Foreign Direct Investments (FDIs) ever out of Asia has been the 1972 Kikkoman plant in Walworth County spearheaded by Governor Patrick Lucey. It currently is the second largest and most productive soy sauce plant in the world. It not only has generated good paying jobs for Walworth County, but pours millions of dollars into the state annually. Yet in the succeeding 40 years, never was there a followup with other major Japanese or foreign companies until the recent Foxconn project near Racine. And since the early 1980s when some 500,000 UAW workers lost their jobs and Wisconsin subsequently lost its remaining automobile factories, over 20 new transplant factories from Japan, Korea, Germany, and France with hundreds of related suppliers have located in TN, IN, OH, SC, KY, WV, etc. Wisconsin never tried for them! But let&rsquo;s hope now that the 2017 Wisconsin side negotiations were tough and wise enough to justify the large anticipated Foxconn cost and indeed net stimulate the southeast economy and lift real wages over the long term.</p>
+
+<p><a href="https://stretchtargets.org/how-economy/" style="color:#1e73be;font-weight:700;">See more on how we can create this change!</a></p>
 
     </div>
   </section>

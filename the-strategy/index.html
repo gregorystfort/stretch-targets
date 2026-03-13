@@ -19,11 +19,11 @@
 <link rel="author" href="https://www.perplexity.ai/computer">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How Economy - Wisconsin Global Scorecard</title>
+<title>The Strategy - Wisconsin Global Scorecard</title>
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
-<meta property="og:title" content="How Economy - Wisconsin Global Scorecard">
-<meta property="og:url" content="https://stretchtargets.org/how-economy/">
+<meta property="og:title" content="The Strategy - Wisconsin Global Scorecard">
+<meta property="og:url" content="https://stretchtargets.org/the-strategy/">
 <meta property="og:site_name" content="Wisconsin Global Scorecard">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,6 +44,8 @@ body {
 a { text-decoration: none; color: inherit; }
 img { max-width: 100%; height: auto; display: block; }
 strong { color: #ff0000; }
+em { font-style: italic; }
+u { text-decoration: underline; }
 
 /* ===== HEADER ===== */
 .l-header {
@@ -253,16 +255,6 @@ strong { color: #ff0000; }
   text-decoration: underline;
 }
 
-/* ===== SECTIONS ===== */
-.l-section {
-  padding: 25px 0;
-}
-.l-section-h {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 /* ===== MAIN CONTENT ===== */
 .main-content {
   padding: 30px 0;
@@ -286,151 +278,6 @@ strong { color: #ff0000; }
   margin-bottom: 15px;
 }
 .main-content h2 strong {
-  color: #ff0000;
-}
-.main-content h3 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 10px;
-}
-.main-content a.read-more {
-  color: #1e73be;
-  font-weight: 700;
-}
-.main-content a.read-more:hover {
-  text-decoration: underline;
-}
-.main-content ul {
-  margin-bottom: 15px;
-  padding-left: 20px;
-}
-.main-content ul li {
-  margin-bottom: 8px;
-  font-size: 14px;
-  line-height: 24px;
-}
-.main-content ul li a {
-  color: #1e73be;
-}
-.main-content ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Grid layouts */
-.grid-row {
-  display: flex;
-  gap: 30px;
-  margin-bottom: 30px;
-}
-.grid-col {
-  flex: 1;
-  background: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #eee;
-}
-.grid-col h3 {
-  color: #333;
-  margin-bottom: 8px;
-}
-.grid-col h3 strong {
-  color: #ff0000;
-}
-.grid-col p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #333;
-}
-
-/* Two column layout */
-.two-col-row {
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-.two-col-left {
-  flex: 1;
-}
-.two-col-right {
-  flex: 1;
-}
-
-/* Legislators blue banner */
-.legislators-banner {
-  background: #1e73be;
-  color: #fff;
-  padding: 40px 0;
-  margin-bottom: 0;
-}
-.legislators-banner .l-section-h {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-.legislators-banner h2 {
-  color: #fff;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-.legislators-banner p {
-  color: #fff;
-  font-size: 14px;
-  line-height: 24px;
-}
-.btn-download {
-  display: inline-block;
-  background: #ff4400;
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  white-space: nowrap;
-}
-.btn-download:hover {
-  opacity: 0.9;
-}
-
-/* Video wrapper */
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-/* Slideshare embed */
-.slideshare-wrapper {
-  margin: 20px 0;
-}
-.slideshare-wrapper iframe {
-  width: 100%;
-  height: 500px;
-  border: 1px solid #eee;
-}
-
-/* Fact statements */
-.fact-statement {
-  font-size: 15px;
-  line-height: 26px;
-  margin-bottom: 20px;
-  padding: 15px 20px;
-  background: #f9f9f9;
-  border-left: 4px solid #1e73be;
-}
-.fact-statement strong {
   color: #ff0000;
 }
 
@@ -568,11 +415,6 @@ strong { color: #ff0000; }
   .l-subheader.at_bottom {
     height: auto;
   }
-  .grid-row,
-  .two-col-row,
-  .legislators-banner .l-section-h {
-    flex-direction: column;
-  }
   .signup-form-row {
     flex-direction: column;
   }
@@ -649,9 +491,9 @@ strong { color: #ff0000; }
   <!-- PAGE TITLE SECTION -->
   <section class="page-title-section">
     <div class="l-section-h">
-      <h1>How Economy</h1>
+      <h1>The Strategy</h1>
       <div class="breadcrumbs">
-        <a href="/">Home</a> &rsaquo; How Economy
+        <a href="/">Home</a> &rsaquo; The Strategy
       </div>
     </div>
   </section>
@@ -660,43 +502,17 @@ strong { color: #ff0000; }
   <section class="main-content">
     <div class="l-section-h">
       
-<h2><strong>HOW DO WE DO IT?</strong></h2>
-<p>We have tried to explain the urgent need for WHY and WHAT and WHERE Wisconsin must radically address its dismal economic and educational performance over the past 38 plus years; and WHY all of us Wisconsinites need a clearly understood scorecard by which to track the performance of complex systems and evaluate confusing reporting. To achieve a &ldquo;Stretch Target&rdquo;, people and institutions have to invent new HOW strategies and incentives and implementations-entirely new ways often fused with past and current &ldquo;successful&rdquo; initiatives and programs to achieve their purpose (Harvard Kennedy School, Baskerville).</p>
+<p><strong><u>STRATEGIC UPGRADING</u></strong> If a school district is serious about radically raising the academic achievement of its students to global levels in 20 years, one would expect a strategic approach whereby teacher certification and the &ldquo;new approaches&rdquo; begin at the early stages and then gradually include the higher grades as preparation is ready. Trying to fix the whole system K-12 in a couple years, though perhaps politically correct, is not practical. If the current upper grades are not positively influenced, it is unfortunate; but sadly, little enhancement has been made for their training for generations.</p>
 
-<h2><strong>HOW WISCONSIN CAN IN THE NEXT 20 YEARS CATCH UP ECONOMICALLY WITH MINNESOTA (&amp; THE NATION)</strong></h2>
-<p>We are not delineating any alternative, concrete economic growth plan in addition to the many already proposed.** Rather, based on the experience from &ldquo;successful&rdquo; projects and initiatives in Wisconsin, elsewhere in the United States, and Overseas, we are suggesting that the following elements be considered in any HOW strategy, i.e., the serious effort to implement a dramatic 20-year Target to economically overtake Minnesota. Our approach will be different than their very successful run. But local business leaders, investors, entrepreneurs and skilled workers will also lead the way with the overall direction of state government.</p>
-<p>** = Though we have attached on the home page one specific proposal for Legislators or other Public Servants to consider.</p>
+<p><strong><u>PARENTAL INVOLVEMENT</u></strong> Studies have indicated that common current American parental involvement in their children&rsquo;s school and education has very little favorable impact on their learning. Professionals estimate that one hour of classroom study in science is worth 2~3 hours of such science study at home. The one very key contribution from Mom, Dad, Grama and Grampa besides support for high achievement levels, modeling in ethics, general encouragement to study and restrictions on their cell phone use, is nightly reading to them early in life (PISA: OECD, PISA No. 10). Later in a child&rsquo;s life, it is valuable for parents to read and discuss with them daily news items and some of the course materials from school. READ AT HOME! This is far more important for learning than driving them to soccer games or watching TV together!</p>
 
-<div class="grid-row">
-  <div class="grid-col">
-    <h3><strong>THE &ldquo;STRETCH&rdquo;</strong></h3>
-    <p>Get our leaders to think BIG!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-stretch/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE IMPLEMENTATION</strong></h3>
-    <p>Gather expeditiously the best and broadest input from many quarters before developing concrete plans.</p>
-    <a class="read-more" href="https://stretchtargets.org/the-implementation/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE STATE GOVERNMENT</strong></h3>
-    <p>Recognize limited state resources will not do it. Rather an all court 20 year press in an integrative state effort will.</p>
-    <a class="read-more" href="https://stretchtargets.org/the-state-government/">Read more</a>
-  </div>
-</div>
+<p><strong><u>COMMUNITY SUPPORT</u></strong> As &ldquo;Stretch Targets&rdquo; and a readily understood Wisconsin Global Scorecard are introduced and one and five year plans developed, understanding of parents and support of business, church and government leaders will grow. Insights, skills and more good will begin flowing to the schools. Excitement for the long-awaited <em>real</em> change in our children and grandchildren&rsquo;s school experience rises.</p>
 
-<div class="grid-row">
-  <div class="grid-col">
-    <h3><strong>THE TACTICS</strong></h3>
-    <p>Increase the capital to fund growth!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-tactics/">Read more</a>
-  </div>
-  <div class="grid-col">
-    <h3><strong>THE QUALITY OF LIFE</strong></h3>
-    <p>Excitement matters!</p>
-    <a class="read-more" href="https://stretchtargets.org/the-quality-of-life/">Read more</a>
-  </div>
-</div>
+<p><strong><u>BROADER SCHOOL READINESS</u></strong> The wider &ldquo;social context of schooling&rdquo; for Wisconsin (and United States) youth in many of our larger cities and poor rural areas may be different than their counterparts in other First World countries. Though Wisconsin fortunately by one poll is rated in the nation&rsquo;s top six in &lsquo;happiness&rsquo;, we and the nation lag behind the advanced world in health and personal safety measures {<em>New York Times</em> 4/28/15. See also above Page-HOW ECONOMY&gt; State Government&gt;&lsquo;Do The Prep&hellip;&rsquo;}. In order to attain &ldquo;Stretch Targets&rdquo;, early measures to also address these learning barriers must begin in homes, schools, and communities.</p>
+
+<p><strong><u>USE OF OTHER OUTSIDE SUPPORT</u></strong> If &ldquo;successful&rdquo; schools and their students require still more assistance, it can be channeled through local school districts to specific schools. But be cautious about fads, and well-meaning outsiders who in effect substitute for good solid teaching, rigorous academic focus, and hard studying. A caveat: it is not just the &ldquo;at risk&rdquo; students that require stretch. Our very best students in comparison with their overseas counterparts also place dead last! ALL students need to stretch!</p>
+
+<p><a href="https://stretchtargets.org/how-education/" style="color:#1e73be;font-weight:700;">See more on how we can create this change!</a></p>
 
     </div>
   </section>
